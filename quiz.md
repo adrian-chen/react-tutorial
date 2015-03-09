@@ -66,7 +66,7 @@ The url is ultimately passed on from the ``React.render`` call.
 
 ### Q8: Who calls ``loadCommentsFromServer``? When? 
 
-{{your answer here}}
+It is called within the function ``componentDidMount``, which is "called automatically by React when a component is rendered."
 
 
 ```javascript
