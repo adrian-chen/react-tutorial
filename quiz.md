@@ -113,7 +113,7 @@ It is called within the function ``componentDidMount``, which is "called automat
 
 ### Q9: What is the purpose of ``this.state``? How is this different from ``this.props``?
 
-{{your answer here}}
+The difference is that ``this.props`` is immutable and owned by the parent and ``this.state`` "is private to the component" and is mutable.  When the state changes, we want the comment box to change (by using this.state).
 
 ### Q10: What is the initial value of ``this.state.data``? How is the initial value specified?
 
